@@ -62,12 +62,6 @@
             <!-- Teamcity -->
             <dependency>
                 <groupId>org.jetbrains.teamcity.agent</groupId>
-                <artifactId>agent</artifactId>
-                <version>${teamcity.version}</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.jetbrains.teamcity.agent</groupId>
                 <artifactId>agent-openapi</artifactId>
                 <version>${teamcity.version}</version>
                 <scope>provided</scope>
@@ -324,11 +318,6 @@
                             <exclude>assembly</exclude>
                         </excludes>
                     </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>com.mycila.maven-license-plugin</groupId>
-                    <artifactId>maven-license-plugin</artifactId>
-                    <version>1.9.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
